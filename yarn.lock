@@ -257,6 +257,13 @@ normalize-path@^3.0.0, normalize-path@~3.0.0:
   resolved "https://registry.yarnpkg.com/normalize-path/-/normalize-path-3.0.0.tgz#0dcd69ff23a1c9b11fd0978316644a0388216a65"
   integrity sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==
 
+p5-decorators@^0.0.7:
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/p5-decorators/-/p5-decorators-0.0.7.tgz#013d278af38fa7c428389fbfa0ed16c26f79011b"
+  integrity sha512-y+hw6kt4+RRY81o+DZV1YYiOaPsrOSZ8rI4rRSRcpxlJddDIsfZXzd9015IgRXU/cVo+IcQt9IJbMTRWrtsupw==
+  dependencies:
+    p5 "^1.5.0"
+
 p5@^1.5.0:
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/p5/-/p5-1.5.0.tgz#a38915c8f1a1bab6a6a2d7c31c5b887e6a966b6e"
@@ -292,6 +299,11 @@ readdirp@~3.6.0:
   integrity sha512-hOS089on8RduqdbhvQ5Z37A0ESjsqz6qnRcffsMU3495FuTdqSm+7bhJ29JvIOsBDEEnan5DPu9t3To9VRlMzA==
   dependencies:
     picomatch "^2.2.1"
+
+reflect-metadata@^0.1.13:
+  version "0.1.13"
+  resolved "https://registry.yarnpkg.com/reflect-metadata/-/reflect-metadata-0.1.13.tgz#67ae3ca57c972a2aa1642b10fe363fe32d49dc08"
+  integrity sha512-Ts1Y/anZELhSsjMcU605fU9RE4Oi3p5ORujwbIKXfWa+0Zxs510Qrmrce5/Jowq3cHSZSJqBjypxmHarc+vEWg==
 
 resolve@^1.22.1:
   version "1.22.1"

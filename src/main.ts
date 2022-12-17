@@ -1,10 +1,16 @@
-import p5 from 'p5'
-import setup from './modules/setup'
+import 'reflect-metadata'
 
 import './styles/global.scss'
+import Setup from './modules/setup'
+import { BaseCanvas, Canvas } from 'p5-decorators'
 
-const sketch = (s: p5) => {
-  s.setup = () => setup(s)
+@Canvas('#app')
+class App extends BaseCanvas {
+  constructor() {
+    super()
+
+    this.register(Setup)
+  }
 }
 
-new p5(sketch, document.querySelector('#app')! as HTMLDivElement)
+new App().start()
