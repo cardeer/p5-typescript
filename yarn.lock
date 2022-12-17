@@ -257,10 +257,10 @@ normalize-path@^3.0.0, normalize-path@~3.0.0:
   resolved "https://registry.yarnpkg.com/normalize-path/-/normalize-path-3.0.0.tgz#0dcd69ff23a1c9b11fd0978316644a0388216a65"
   integrity sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==
 
-p5-decorators@^0.0.7:
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/p5-decorators/-/p5-decorators-0.0.7.tgz#013d278af38fa7c428389fbfa0ed16c26f79011b"
-  integrity sha512-y+hw6kt4+RRY81o+DZV1YYiOaPsrOSZ8rI4rRSRcpxlJddDIsfZXzd9015IgRXU/cVo+IcQt9IJbMTRWrtsupw==
+p5-decorators@^0.0.11:
+  version "0.0.11"
+  resolved "https://registry.yarnpkg.com/p5-decorators/-/p5-decorators-0.0.11.tgz#ae411135e83d613eb88aa1d40542347c78073b56"
+  integrity sha512-ffJErBI5NpUzHpTUpjxt9PIPnMRzvZzimpg0foVJ/Q3qzhcAlkCnRYQ4I1WEC0IB0kghAiAPGiQl5T3TrmxjBg==
   dependencies:
     p5 "^1.5.0"
 
